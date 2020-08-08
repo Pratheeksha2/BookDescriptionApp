@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/firstpagee"
+    tools:context=".firstpage">
+
+    <Button
+        android:id="@+id/books"
+        android:layout_width="350dp"
+        android:layout_height="68dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="34dp"
+        android:layout_marginRight="34dp"
+        android:layout_marginBottom="195dp"
+        android:background="#DF2365"
+        android:text="Books"
+        android:textColor="#F0EAEA"
+        android:textSize="36sp" />
+
+    <Button
+        android:id="@+id/exit"
+        android:layout_width="350dp"
+        android:layout_height="68dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="34dp"
+        android:layout_marginRight="34dp"
+        android:layout_marginBottom="103dp"
+        android:background="#E65B31"
+        android:text="EXIT"
+        android:textColor="#FDF7F8"
+        android:textSize="36sp" />
+</RelativeLayout>
